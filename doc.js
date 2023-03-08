@@ -3,14 +3,19 @@ const show = 'display: block'
 
 const items = [
   {
+    title: 'Technical Documentation',
+    href: 'https://auroral.docs.bavenir.eu/',
+    description: 'getting started, key features...',
+  },
+  {
     title: 'Blog',
     href: 'https://blog.bavenir.eu/auroral/',
-    description: 'installation, examples...',
+    description: 'news, examples, videos...',
   },
   {
     title: 'Wiki',
     href: 'https://github.com/AuroralH2020/auroral-node/wiki',
-    description: 'Technical documentation',
+    description: 'how to for developers',
   },
 ]
 
@@ -159,6 +164,8 @@ function loadStyles() {
   }
   
   #_auroral-doc-panel-content {
+    height: 280px !important;
+    overflow-y: auto !important;
     padding: 16px !important;
   }
   
