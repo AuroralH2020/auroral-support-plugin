@@ -82,7 +82,6 @@ panel.append(iconContrib)
 window.addEventListener(
   'DOMContentLoaded',
   function () {
-    console.log('here')
     document.body.append(button)
     document.body.append(panel)
     loadStyles()
